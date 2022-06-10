@@ -1,0 +1,9 @@
+--PROCEDIMIENTO ALMACENADO--
+CREATE PROC sp_Login
+@usuario varchar(50),
+@contrasena varchar(50)
+AS
+BEGIN
+SELECT TOP 1 COUNT(*) FROM usuarios
+WHERE usuario = @usuario AND contrasena = @contrasena
+END
