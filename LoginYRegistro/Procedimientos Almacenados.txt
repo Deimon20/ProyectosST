@@ -1,0 +1,25 @@
+--DB NAME = prueba--
+
+--PROCEDIMIENTO ALMACENADO LOGIN--
+CREATE PROC sp_Login
+@usuario varchar(50),
+@contrasena varchar(50)
+AS
+BEGIN
+SELECT TOP 1 COUNT(*) FROM usuarios
+WHERE usuario = @usuario AND contrasena = @contrasena
+END
+
+
+--PROCEDIMIENTO ALMACENADO REGISTRO--
+CREATE PROC sp_RegistroReq
+@usuario varchar(50),
+@tipoReq varchar(50),
+@descripcion varchar(400),
+@prioridad varchar(50),
+@dias int,
+@estado char(1)
+AS
+BEGIN
+INSERT INTO requerimiento VALUES(@usuario,@tipoReq,@descripcion,@prioridad,@dias,@estado)
+END

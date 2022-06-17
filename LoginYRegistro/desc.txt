@@ -1,1 +1,1 @@
-Creacion de Formulario con Base de Datos SQL Server
+Ejercicio de Login y Registro de Usuarios con Windows Form y SQL Server

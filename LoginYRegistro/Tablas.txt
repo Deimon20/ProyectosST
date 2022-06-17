@@ -1,0 +1,33 @@
+--DB NAME = prueba--
+
+/* Crear tabla usuario*/
+CREATE TABLE usuarios (
+	usuario varchar(50),
+	contrasena varchar(50),
+	CONSTRAINT PK_Login PRIMARY KEY(usuario)
+);
+
+/* Insertar registros */
+
+INSERT INTO usuarios(usuario,contrasena) 
+VALUES ('dsalinas','clave123'),
+('pgamer','pepe123'),
+('dmon','got123')
+
+/* Ver usuarios registrados */
+SELECT * FROM usuarios
+
+--TABLA DE REQUERIMIENTOS--
+
+CREATE TABLE requerimiento(
+	id int unique identity(100,1),
+	usuario varchar(50),
+	tipo_req varchar(20),
+	descripcion varchar(400),
+	prioridad varchar(10),
+	dias_plazo int,
+	estado char(1),
+	CONSTRAINT PK_REQ PRIMARY KEY(id),
+	CONSTRAINT FK_ASIGA FOREIGN KEY(usuario) REFERENCES usuarios(usuario)
+
+);
