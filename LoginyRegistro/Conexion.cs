@@ -18,7 +18,7 @@ namespace Autenticacion
             try
             {
                 //muestra si estamos conectados a la bd o no.
-                cn = new SqlConnection("Data Source = LOCALHOST\\SQLEXPRESS; Initial Catalog = validar; Integrated Security = True;");
+                cn = new SqlConnection("Data Source = LOCALHOST\\SQLEXPRESS; Initial Catalog = prueba; Integrated Security = True;");
                 MessageBox.Show("Se ha conectado correctamente a la BD", "Conexion Establecida", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             catch (Exception ex) 

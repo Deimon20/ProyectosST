@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SantoTomas\\Desktop\\jijija\\Autenticacion\\Autenticacion.csproj": {}
+    "C:\\Users\\SantoTomas\\Desktop\\LoginyRegistro\\Autenticacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SantoTomas\\Desktop\\jijija\\Autenticacion\\Autenticacion.csproj": {
+    "C:\\Users\\SantoTomas\\Desktop\\LoginyRegistro\\Autenticacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SantoTomas\\Desktop\\jijija\\Autenticacion\\Autenticacion.csproj",
+        "projectUniqueName": "C:\\Users\\SantoTomas\\Desktop\\LoginyRegistro\\Autenticacion.csproj",
         "projectName": "Autenticacion",
-        "projectPath": "C:\\Users\\SantoTomas\\Desktop\\jijija\\Autenticacion\\Autenticacion.csproj",
+        "projectPath": "C:\\Users\\SantoTomas\\Desktop\\LoginyRegistro\\Autenticacion.csproj",
         "packagesPath": "C:\\Users\\SantoTomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SantoTomas\\Desktop\\jijija\\Autenticacion\\obj\\",
+        "outputPath": "C:\\Users\\SantoTomas\\Desktop\\LoginyRegistro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SantoTomas\\AppData\\Roaming\\NuGet\\NuGet.Config",

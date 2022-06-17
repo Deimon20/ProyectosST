@@ -44,7 +44,7 @@
             this.lbl_titulo.Name = "lbl_titulo";
             this.lbl_titulo.Size = new System.Drawing.Size(352, 24);
             this.lbl_titulo.TabIndex = 0;
-            this.lbl_titulo.Text = "AUTENTICACION DE USUARIO";
+            this.lbl_titulo.Text = "AUTENTICACIÓN DE USUARIO";
             // 
             // lbl_user
             // 
